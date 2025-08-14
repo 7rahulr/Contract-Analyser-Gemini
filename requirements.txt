@@ -1,7 +1,5 @@
 streamlit
 google-generativeai
 python-dotenv
-pycryptodome
-pywin32
-docx
+python-docx
 PyPDF2
