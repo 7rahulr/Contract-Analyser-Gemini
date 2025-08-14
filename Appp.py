@@ -101,7 +101,6 @@ def extract_text_from_docx(file_obj):
 st.set_page_config(page_title="Contract Analyzer 📄🔍")
 
 st.title("Contract Analyzer")
-st.markdown("### Powered by Gemini Pro API")
 
 # File uploader widget
 uploaded_file = st.file_uploader("Upload a contract file (PDF, DOCX, TXT)", type=["pdf", "docx", "txt"])
@@ -240,4 +239,5 @@ if st.button("Analyze Contract"):
             except Exception as e:
                 st.error(f"An error occurred during file processing: {e}")
     else:
+
         st.warning("Please upload a contract file to analyze.")
